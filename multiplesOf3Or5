@@ -1,0 +1,7 @@
+def solution(number):
+  x = 0 #x is used to store the sum
+  while number > 2:
+    number -= 1
+    if (number % 3) == 0 or (number % 5) == 0:
+      x += number
+  return x;
