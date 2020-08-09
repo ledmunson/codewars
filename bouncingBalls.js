@@ -12,6 +12,7 @@
  * If all three conditions above are fulfilled, return a positive integer, otherwise return -1.
  */
 
+ // My solution.
 function bouncingBall(h,  bounce,  window) {
     // Initialize variable to store number of times ball has passed the window. Assume that ball will always pass window at least once if valid experiment.
     var ballPasses = 1;
