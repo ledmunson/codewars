@@ -7,6 +7,7 @@
  * If a string contains all repeating characters, it should return an empty string ("") or None -- see sample tests.
  */
 
+// My soltution.
 // Return first non-repeating letter in an input string.
 function firstNonRepeatingLetter(s) {
     // Split input string into array of substrings.
