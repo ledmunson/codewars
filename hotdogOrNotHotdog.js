@@ -1,7 +1,7 @@
 // Playing around with the basics of functional programming for fun.
-function hotdogOrNot(p1, p2) {
+function hotdogOrNot(func1, func2) {
     return function(a) {
-        return p1(a) + " " + p2(a);
+        return func1(a) + " " + func2(a);
     }
 }
 
